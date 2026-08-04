@@ -82,5 +82,4 @@ the segment (0 or 1 for the default `OUTPUTS_PER_SEGMENT = 2`) when it writes ea
 
 - `address_gen`'s `MAX_SEGMENTS` parameter and `LAST_SEGMENT` saturation logic haven't been stress-tested
   against the full `MAX_SEGMENTS_PER_RANGE = 100` boundary case.
-- Worth double-checking against the worked example in spec §6.6 with a testbench, if one isn't already
-  in the repo.
+
