@@ -49,3 +49,11 @@ tracks range offsets across the buffer.
 | `OUTPUT_SIZE` | 8 | Elements per Output Word |
 | `ADDR_WIDTH` | 8 | Width of output addresses |
 | `MAX_SEGMENTS_PER_RANGE` | 100 | Max segments per processing range |
+
+
+## Team Digibolt
+Haroun Taha Omar
+Farah Emad Farouk
+Mina Mikhaeel Fathy
+Mostafa Mohamed Abdulmonem
+Malak Nagah Sadek
