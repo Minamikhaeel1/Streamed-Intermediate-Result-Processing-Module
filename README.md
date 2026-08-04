@@ -52,8 +52,8 @@ tracks range offsets across the buffer.
 
 
 ## Team Digibolt
-Haroun Taha Omar
-Farah Emad Farouk
-Mina Mikhaeel Fathy
-Mostafa Mohamed Abdulmonem
-Malak Nagah Sadek
+-Haroun Taha Omar
+-Farah Emad Farouk
+-Mina Mikhaeel Fathy
+-Mostafa Mohamed Abdulmonem
+-Malak Nagah Sadek
