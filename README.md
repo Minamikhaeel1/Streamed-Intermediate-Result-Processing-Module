@@ -31,11 +31,6 @@ Full functional spec: [`docs/Digital_IC_Design_Hackathon.pdf`](docs/Digital_IC_D
 | `output_memory` | Storage array for output words; dual read port (downstream + accumulation feedback). |
 | `output_interface` | Combinational lookup exposing `output_valid`/`output_data` for the requested `output_addr`. |
 
-> **Open item:** `rtl/processing_engine_NEEDS_REVIEW.v` currently contains an `address_manager` module
-> (a second, slightly different version of `rtl/address_manager.v`), not `processing_engine`. The actual
-> `processing_engine` module hasn't been uploaded yet. Needs to be resolved before this repo is
-> considered complete — see [`docs/diagrams/architecture.png`](docs/diagrams/architecture.png) for what
-> that block needs to do.
 
 
 ## My contribution
