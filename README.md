@@ -27,7 +27,7 @@ Full functional spec: [`docs/Digital_IC_Design_Hackathon.pdf`](docs/Digital_IC_D
 | `controller_fsm` | Top-level control FSM — tracks processing mode (initial/accumulate) and traversal direction. **(mine)** |
 | `address_gen` | Generates the base output address for the current segment, tracking range offsets across ranges. **(mine)** |
 | `address_manager` | Tracks the "finalized" watermark address and signals `internal_done` back to the FSM. |
-| `processing_engine` | Concatenates/accumulates partial data into output words, drives memory writes. **⚠️ see note below** |
+| `processing_engine` | Concatenates/accumulates partial data into output words, drives memory writes.  |
 | `output_memory` | Storage array for output words; dual read port (downstream + accumulation feedback). |
 | `output_interface` | Combinational lookup exposing `output_valid`/`output_data` for the requested `output_addr`. |
 
@@ -37,15 +37,6 @@ Full functional spec: [`docs/Digital_IC_Design_Hackathon.pdf`](docs/Digital_IC_D
 > considered complete — see [`docs/diagrams/architecture.png`](docs/diagrams/architecture.png) for what
 > that block needs to do.
 
-## Repo layout
-
-```
-rtl/                          RTL source (Verilog)
-docs/
-  Digital_IC_Design_Hackathon.pdf   Full spec
-  diagrams/                         Architecture + FSM diagrams
-  my-part/                          Detailed writeup of controller_fsm + address_gen
-```
 
 ## My contribution
 
